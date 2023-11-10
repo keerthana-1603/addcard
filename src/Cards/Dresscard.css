@@ -1,0 +1,49 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dress-card{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    border : 1px solid darkgray;
+    border-radius : 5px;
+    gap: 20px;
+    /* padding: 5px;  */
+  }
+  img{
+    width: 280px;
+    height: 350px;
+    object-fit: cover;
+  }
+  
+  
+  .btn-sec{
+    display: flex;
+    gap: 20px;
+  }
+  /* p{
+    margin-left: 30px;
+  } */
+  .btn-sec>button{
+     width: 100px;
+     height: 35px;
+     border: none;
+     outline: none; 
+     cursor: pointer; 
+     padding: 5px 7px;
+     border-radius: 5px; 
+     display: flex; 
+     align-items: center; 
+     justify-content: center;
+     background-color: crimson;
+     color: white;
+     font-size: 16px; 
+     font-weight: 500;
+
+}
+
